@@ -1,0 +1,53 @@
+DJANGO
+1. What is Django?
+Django is a Python framework that makes web application development easier. It's a free and 
+open-source framework. Django framework makes developers focus on new application 
+components instead of already developed ones. It is most preferred because it is fast, flexible, 
+suitable for any web app development, secure, scalable, and portable.
+
+2. Django framework is used for backend or frontend?
+Django is suitable for both the backend and frontend. It's a collection of Python libraries that 
+allow you to develop useful web apps for both the backend and frontend.
+
+3. What is the difference between the Python language and the Django framework?
+Python is a programming language used for various applications: machine learning, artificial 
+intelligence, desktop apps, etc. Django is a Python web framework for full-stack app and server 
+development.
+
+4. What is the architecture used by Django?
+Django framework uses a Model-Template-View(MTV) architecture. This architecture consists of 
+three different parts:
+1. Model: The data should be presented from a database.
+2. View: It's a user interface. It handles the request from the user and returns the relevant 
+template.
+3. Template: It is a file contains to logic to display the data.
+
+5. What are the advantages of using the Django framework?
+Django has many advantages, which are as follows:-
+1. Django follows MTV architecture (Model-Template-View).
+2. It is fast and flexible.
+3. It is free and open-source.
+4. It is portable.
+5. It is secured and scalable. 
+6. It has plenty of inbuilt libraries.
+7. It provides support for ORM.
+
+6. What is the use of the middle-wares in Django?
+Middleware is something that executes between the request and response. In simple words, you 
+can say it acts as a bridge between the request and response. Similarly, In Django, when a request 
+is made, it moves through middleware to views, and data is passed through middleware as a 
+response.
+
+7. Explain Django URL.
+URLs are an essential part of a web application, and using Django, and the URL can be designed 
+according to the programmer's need. These URLs can be static as well as dynamic.
+
+8. Explain the structure of a Django project.
+A Django project contains the following files:
+1.manage.py => manage.py is the command line utility of your Django project and controls the Django 
+project on the server.
+2.settings.py => settings.py file includes information on all the apps installed in the project.
+3.init.py => The init.py file is an empty file that makes the python interpreter understand that the 
+directory consisting of settings.py is a module/package.
+4.urls.py => The urls.py file acts as a map for the whole web project.
+5.wsgi.py=>The wsgi.py file is for the server format WSGI.
